@@ -133,10 +133,10 @@
 		9F3AB2181E07E6A8006654D2 /* vpool.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB19D1E07E6A8006654D2 /* vpool.h */; };
 		9F3AB2191E07E6A9006654D2 /* WhisperTextProtocol.pb-c.c in Sources */ = {isa = PBXBuildFile; fileRef = 9F3AB19E1E07E6A8006654D2 /* WhisperTextProtocol.pb-c.c */; };
 		9F3AB21A1E07E6A9006654D2 /* WhisperTextProtocol.pb-c.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB19F1E07E6A8006654D2 /* WhisperTextProtocol.pb-c.h */; };
-		9F3AB3221E07E7CC006654D2 /* SignalContext_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB3181E07E7CC006654D2 /* SignalContext_Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F3AB3221E07E7CC006654D2 /* SignalContext_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB3181E07E7CC006654D2 /* SignalContext_Internal.h */; };
 		9F3AB3231E07E7CC006654D2 /* SignalContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB3191E07E7CC006654D2 /* SignalContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F3AB3241E07E7CC006654D2 /* SignalContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3AB31A1E07E7CC006654D2 /* SignalContext.m */; };
-		9F3AB3251E07E7CC006654D2 /* SignalKeyHelper_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB31B1E07E7CC006654D2 /* SignalKeyHelper_Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F3AB3251E07E7CC006654D2 /* SignalKeyHelper_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB31B1E07E7CC006654D2 /* SignalKeyHelper_Internal.h */; };
 		9F3AB3261E07E7CC006654D2 /* SignalKeyHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB31C1E07E7CC006654D2 /* SignalKeyHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F3AB3271E07E7CC006654D2 /* SignalKeyHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3AB31D1E07E7CC006654D2 /* SignalKeyHelper.m */; };
 		9F3AB3281E07E7CC006654D2 /* SignalSessionBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB31E1E07E7CC006654D2 /* SignalSessionBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -149,31 +149,31 @@
 		9F3AB35A1E07E7D9006654D2 /* SignalCommonCryptoProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3AB3331E07E7D9006654D2 /* SignalCommonCryptoProvider.m */; };
 		9F3AB35B1E07E7D9006654D2 /* SignalAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB3351E07E7D9006654D2 /* SignalAddress.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F3AB35C1E07E7D9006654D2 /* SignalAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3AB3361E07E7D9006654D2 /* SignalAddress.m */; };
-		9F3AB35D1E07E7D9006654D2 /* SignalAddress_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB3371E07E7D9006654D2 /* SignalAddress_Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F3AB35D1E07E7D9006654D2 /* SignalAddress_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB3371E07E7D9006654D2 /* SignalAddress_Internal.h */; };
 		9F3AB35E1E07E7D9006654D2 /* SignalCiphertext.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB3381E07E7D9006654D2 /* SignalCiphertext.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F3AB35F1E07E7D9006654D2 /* SignalCiphertext.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3AB3391E07E7D9006654D2 /* SignalCiphertext.m */; };
 		9F3AB3601E07E7D9006654D2 /* SignalIdentityKeyPair.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB33A1E07E7D9006654D2 /* SignalIdentityKeyPair.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F3AB3611E07E7D9006654D2 /* SignalIdentityKeyPair.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3AB33B1E07E7D9006654D2 /* SignalIdentityKeyPair.m */; };
-		9F3AB3621E07E7D9006654D2 /* SignalIdentityKeyPair_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB33C1E07E7D9006654D2 /* SignalIdentityKeyPair_Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F3AB3621E07E7D9006654D2 /* SignalIdentityKeyPair_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB33C1E07E7D9006654D2 /* SignalIdentityKeyPair_Internal.h */; };
 		9F3AB3631E07E7D9006654D2 /* SignalKeyPair.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB33D1E07E7D9006654D2 /* SignalKeyPair.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F3AB3641E07E7D9006654D2 /* SignalKeyPair.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3AB33E1E07E7D9006654D2 /* SignalKeyPair.m */; };
-		9F3AB3651E07E7D9006654D2 /* SignalKeyPair_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB33F1E07E7D9006654D2 /* SignalKeyPair_Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F3AB3651E07E7D9006654D2 /* SignalKeyPair_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB33F1E07E7D9006654D2 /* SignalKeyPair_Internal.h */; };
 		9F3AB3661E07E7D9006654D2 /* SignalMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB3401E07E7D9006654D2 /* SignalMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F3AB3671E07E7D9006654D2 /* SignalMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3AB3411E07E7D9006654D2 /* SignalMessage.m */; };
-		9F3AB3681E07E7D9006654D2 /* SignalMessage_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB3421E07E7D9006654D2 /* SignalMessage_Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F3AB3681E07E7D9006654D2 /* SignalMessage_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB3421E07E7D9006654D2 /* SignalMessage_Internal.h */; };
 		9F3AB3691E07E7D9006654D2 /* SignalPreKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB3431E07E7D9006654D2 /* SignalPreKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F3AB36A1E07E7D9006654D2 /* SignalPreKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3AB3441E07E7D9006654D2 /* SignalPreKey.m */; };
-		9F3AB36B1E07E7D9006654D2 /* SignalPreKey_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB3451E07E7D9006654D2 /* SignalPreKey_Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F3AB36B1E07E7D9006654D2 /* SignalPreKey_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB3451E07E7D9006654D2 /* SignalPreKey_Internal.h */; };
 		9F3AB36C1E07E7D9006654D2 /* SignalPreKeyBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB3461E07E7D9006654D2 /* SignalPreKeyBundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F3AB36D1E07E7D9006654D2 /* SignalPreKeyBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3AB3471E07E7D9006654D2 /* SignalPreKeyBundle.m */; };
-		9F3AB36E1E07E7D9006654D2 /* SignalPreKeyBundle_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB3481E07E7D9006654D2 /* SignalPreKeyBundle_Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F3AB36E1E07E7D9006654D2 /* SignalPreKeyBundle_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB3481E07E7D9006654D2 /* SignalPreKeyBundle_Internal.h */; };
 		9F3AB36F1E07E7D9006654D2 /* SignalPreKeyMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB3491E07E7D9006654D2 /* SignalPreKeyMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F3AB3701E07E7D9006654D2 /* SignalPreKeyMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3AB34A1E07E7D9006654D2 /* SignalPreKeyMessage.m */; };
-		9F3AB3711E07E7D9006654D2 /* SignalPreKeyMessage_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB34B1E07E7D9006654D2 /* SignalPreKeyMessage_Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F3AB3711E07E7D9006654D2 /* SignalPreKeyMessage_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB34B1E07E7D9006654D2 /* SignalPreKeyMessage_Internal.h */; };
 		9F3AB3721E07E7D9006654D2 /* SignalSerializable.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB34C1E07E7D9006654D2 /* SignalSerializable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F3AB3731E07E7D9006654D2 /* SignalSignedPreKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB34D1E07E7D9006654D2 /* SignalSignedPreKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F3AB3741E07E7D9006654D2 /* SignalSignedPreKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3AB34E1E07E7D9006654D2 /* SignalSignedPreKey.m */; };
-		9F3AB3751E07E7D9006654D2 /* SignalSignedPreKey_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB34F1E07E7D9006654D2 /* SignalSignedPreKey_Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F3AB3751E07E7D9006654D2 /* SignalSignedPreKey_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB34F1E07E7D9006654D2 /* SignalSignedPreKey_Internal.h */; };
 		9F3AB3761E07E7D9006654D2 /* SignalIdentityKeyStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB3511E07E7D9006654D2 /* SignalIdentityKeyStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F3AB3771E07E7D9006654D2 /* SignalPreKeyStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB3521E07E7D9006654D2 /* SignalPreKeyStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F3AB3781E07E7D9006654D2 /* SignalSenderKeyStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB3531E07E7D9006654D2 /* SignalSenderKeyStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -181,7 +181,7 @@
 		9F3AB37A1E07E7D9006654D2 /* SignalSignedPreKeyStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB3551E07E7D9006654D2 /* SignalSignedPreKeyStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F3AB37B1E07E7D9006654D2 /* SignalStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB3561E07E7D9006654D2 /* SignalStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F3AB37C1E07E7D9006654D2 /* SignalStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3AB3571E07E7D9006654D2 /* SignalStorage.m */; };
-		9F3AB37D1E07E7D9006654D2 /* SignalStorage_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB3581E07E7D9006654D2 /* SignalStorage_Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F3AB37D1E07E7D9006654D2 /* SignalStorage_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB3581E07E7D9006654D2 /* SignalStorage_Internal.h */; };
 		9F3AB37F1E07E8C3006654D2 /* SignalProtocolC.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB37E1E07E8C3006654D2 /* SignalProtocolC.h */; };
 /* End PBXBuildFile section */
 
@@ -713,41 +713,41 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F3AB2011E07E6A8006654D2 /* sender_key_state.h in Headers */,
-				9F3AB3221E07E7CC006654D2 /* SignalContext_Internal.h in Headers */,
 				9F3AB3231E07E7CC006654D2 /* SignalContext.h in Headers */,
-				9F3AB3251E07E7CC006654D2 /* SignalKeyHelper_Internal.h in Headers */,
 				9F3AB3261E07E7CC006654D2 /* SignalKeyHelper.h in Headers */,
 				9F3AB3281E07E7CC006654D2 /* SignalSessionBuilder.h in Headers */,
 				9F3AB32A1E07E7CC006654D2 /* SignalSessionCipher.h in Headers */,
 				9F3AB3591E07E7D9006654D2 /* SignalCommonCryptoProvider.h in Headers */,
 				9F3AB35B1E07E7D9006654D2 /* SignalAddress.h in Headers */,
-				9F3AB35D1E07E7D9006654D2 /* SignalAddress_Internal.h in Headers */,
 				9F3AB35E1E07E7D9006654D2 /* SignalCiphertext.h in Headers */,
 				9F3AB3601E07E7D9006654D2 /* SignalIdentityKeyPair.h in Headers */,
-				9F3AB3621E07E7D9006654D2 /* SignalIdentityKeyPair_Internal.h in Headers */,
 				9F3AB3631E07E7D9006654D2 /* SignalKeyPair.h in Headers */,
-				9F3AB3651E07E7D9006654D2 /* SignalKeyPair_Internal.h in Headers */,
 				9F3AB3661E07E7D9006654D2 /* SignalMessage.h in Headers */,
-				9F3AB3681E07E7D9006654D2 /* SignalMessage_Internal.h in Headers */,
 				9F3AB3691E07E7D9006654D2 /* SignalPreKey.h in Headers */,
-				9F3AB36B1E07E7D9006654D2 /* SignalPreKey_Internal.h in Headers */,
 				9F3AB36C1E07E7D9006654D2 /* SignalPreKeyBundle.h in Headers */,
-				9F3AB36E1E07E7D9006654D2 /* SignalPreKeyBundle_Internal.h in Headers */,
 				9F3AB36F1E07E7D9006654D2 /* SignalPreKeyMessage.h in Headers */,
-				9F3AB3711E07E7D9006654D2 /* SignalPreKeyMessage_Internal.h in Headers */,
 				9F3AB3721E07E7D9006654D2 /* SignalSerializable.h in Headers */,
 				9F3AB3731E07E7D9006654D2 /* SignalSignedPreKey.h in Headers */,
-				9F3AB3751E07E7D9006654D2 /* SignalSignedPreKey_Internal.h in Headers */,
 				9F3AB3761E07E7D9006654D2 /* SignalIdentityKeyStore.h in Headers */,
 				9F3AB3771E07E7D9006654D2 /* SignalPreKeyStore.h in Headers */,
 				9F3AB3781E07E7D9006654D2 /* SignalSenderKeyStore.h in Headers */,
 				9F3AB3791E07E7D9006654D2 /* SignalSessionStore.h in Headers */,
 				9F3AB37A1E07E7D9006654D2 /* SignalSignedPreKeyStore.h in Headers */,
 				9F3AB37B1E07E7D9006654D2 /* SignalStorage.h in Headers */,
-				9F3AB37D1E07E7D9006654D2 /* SignalStorage_Internal.h in Headers */,
 				9F3AB32F1E07E7D1006654D2 /* SignalError.h in Headers */,
 				9F3AB1C31E07E6A8006654D2 /* ge_add.h in Headers */,
 				9F3AB1F11E07E6A8006654D2 /* group_session_builder.h in Headers */,
+				9F3AB3221E07E7CC006654D2 /* SignalContext_Internal.h in Headers */,
+				9F3AB3251E07E7CC006654D2 /* SignalKeyHelper_Internal.h in Headers */,
+				9F3AB35D1E07E7D9006654D2 /* SignalAddress_Internal.h in Headers */,
+				9F3AB3621E07E7D9006654D2 /* SignalIdentityKeyPair_Internal.h in Headers */,
+				9F3AB3651E07E7D9006654D2 /* SignalKeyPair_Internal.h in Headers */,
+				9F3AB3681E07E7D9006654D2 /* SignalMessage_Internal.h in Headers */,
+				9F3AB36B1E07E7D9006654D2 /* SignalPreKey_Internal.h in Headers */,
+				9F3AB36E1E07E7D9006654D2 /* SignalPreKeyBundle_Internal.h in Headers */,
+				9F3AB3711E07E7D9006654D2 /* SignalPreKeyMessage_Internal.h in Headers */,
+				9F3AB3751E07E7D9006654D2 /* SignalSignedPreKey_Internal.h in Headers */,
+				9F3AB37D1E07E7D9006654D2 /* SignalStorage_Internal.h in Headers */,
 				9F3AB1EB1E07E6A8006654D2 /* fingerprint.h in Headers */,
 				9F3AB1D71E07E6A8006654D2 /* ge_sub.h in Headers */,
 				9F3AB1FB1E07E6A8006654D2 /* protocol.h in Headers */,
