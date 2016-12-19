@@ -9,9 +9,11 @@
 #import <Foundation/Foundation.h>
 
 typedef NS_ENUM(NSInteger, SignalCiphertextType) {
-    SignalCiphertextTypeUnknown,
-    SignalCiphertextTypeMessage,
-    SignalCiphertextTypePreKeyMessage
+    SignalCiphertextTypeUnknown = 0,
+    SignalCiphertextTypeMessage = 1,
+    SignalCiphertextTypePreKeyMessage = 3,
+    SignalCiphertextTypeUnencryptedMessage = 4,
+    SignalCiphertextTypeReceipt = 5
 };
 
 NS_ASSUME_NONNULL_BEGIN

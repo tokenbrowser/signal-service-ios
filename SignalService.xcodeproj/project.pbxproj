@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9F3AB10E1E07E620006654D2 /* SignalService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F3AB1041E07E620006654D2 /* SignalService.framework */; };
+		9F2BDE111E07FDB000E32CAD /* SignalService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F3AB1041E07E620006654D2 /* SignalService.framework */; };
 		9F3AB1131E07E620006654D2 /* SignalServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3AB1121E07E620006654D2 /* SignalServiceTests.swift */; };
 		9F3AB1151E07E620006654D2 /* SignalService.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB1071E07E620006654D2 /* SignalService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F3AB1A01E07E6A8006654D2 /* curve.c in Sources */ = {isa = PBXBuildFile; fileRef = 9F3AB11F1E07E6A8006654D2 /* curve.c */; };
@@ -197,6 +197,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F2BDE0C1E07FD9700E32CAD /* SweetFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SweetFoundation.framework; path = "../../../Library/Developer/Xcode/DerivedData/Demo-cqmgdvvkmxvkhmcbamqyzksvjgph/Build/Products/Debug-iphoneos/SweetFoundation.framework"; sourceTree = "<group>"; };
 		9F3AB1041E07E620006654D2 /* SignalService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SignalService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F3AB1071E07E620006654D2 /* SignalService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignalService.h; sourceTree = "<group>"; };
 		9F3AB1081E07E620006654D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -393,19 +394,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F3AB10E1E07E620006654D2 /* SignalService.framework in Frameworks */,
+				9F2BDE111E07FDB000E32CAD /* SignalService.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F2BDE0B1E07FD9700E32CAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F2BDE0C1E07FD9700E32CAD /* SweetFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9F3AB0FA1E07E620006654D2 = {
 			isa = PBXGroup;
 			children = (
 				9F3AB1061E07E620006654D2 /* SignalService */,
 				9F3AB1111E07E620006654D2 /* SignalServiceTests */,
 				9F3AB1051E07E620006654D2 /* Products */,
+				9F2BDE0B1E07FD9700E32CAD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1155,6 +1165,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SignalServiceTests",
+				);
 				INFOPLIST_FILE = SignalServiceTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = no.bakkenbaeck.SignalServiceTests;
@@ -1170,6 +1184,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SignalServiceTests",
+				);
 				INFOPLIST_FILE = SignalServiceTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = no.bakkenbaeck.SignalServiceTests;

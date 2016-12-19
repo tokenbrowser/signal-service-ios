@@ -25,10 +25,10 @@ class Tests: XCTestCase {
         aliceInMemorySignalStore.storePreKey(aliceFirstPreKey.serializedData(), preKeyId: 0)
         aliceInMemorySignalStore.storeSignedPreKey(aliceSignedPreKey.serializedData(), signedPreKeyId: 0)
 
-        let alicePreKeyPublicData = Data(base64Encoded: aliceFirstPreKey.keyPair().publicKey.base64EncodedString())!
-        let aliceSignedPreKeyPublicData = Data(base64Encoded: aliceSignedPreKey.keyPair().publicKey.base64EncodedString())!
-        let aliceSignatureData = Data(base64Encoded: aliceSignedPreKey.signature().base64EncodedString())!
-        let aliceIdentityKeyPublicData = Data(base64Encoded: aliceIdentityKeyPair.publicKey.base64EncodedString())!
+        let alicePreKeyPublicData = Data(base64Encoded: aliceFirstPreKey.keyPair().publicKey.base64EncodedStringWithoutPadding().paddedForBase64)!
+        let aliceSignedPreKeyPublicData = Data(base64Encoded: aliceSignedPreKey.keyPair().publicKey.base64EncodedStringWithoutPadding().paddedForBase64)!
+        let aliceSignatureData = Data(base64Encoded: aliceSignedPreKey.signature().base64EncodedStringWithoutPadding().paddedForBase64)!
+        let aliceIdentityKeyPublicData = Data(base64Encoded: aliceIdentityKeyPair.publicKey.base64EncodedStringWithoutPadding().paddedForBase64)!
 
         let alicePreKeyBundle = SignalPreKeyBundle(registrationId: aliceRegistrationId, deviceId: 1, preKeyId: 0, preKeyPublic: alicePreKeyPublicData, signedPreKeyId: 0, signedPreKeyPublic: aliceSignedPreKeyPublicData, signature: aliceSignatureData, identityKey: aliceIdentityKeyPublicData)
 
@@ -59,5 +59,34 @@ class Tests: XCTestCase {
         let decryptedMessage = String(data: decryptedData, encoding: .utf8)!
 
         XCTAssertEqual(sentMessage, decryptedMessage)
+    }
+}
+
+extension Data {
+    public func base64EncodedStringWithoutPadding() -> String {
+        let base64 = self.base64EncodedString()
+        if base64.hasSuffix("==") {
+            return base64.substring(to: base64.index(base64.endIndex, offsetBy: -2))
+        } else if base64.hasSuffix("=") {
+            return base64.substring(to: base64.index(base64.endIndex, offsetBy: -1))
+        }
+
+        return base64
+    }
+}
+
+public extension String {
+    public var paddedForBase64: String {
+        let length = self.decomposedStringWithCanonicalMapping.characters.count
+        let paddingString = "="
+        let paddingLength = length % 4
+
+        if paddingLength > 0 {
+            let paddingCharCount = 4 - paddingLength
+
+            return self.padding(toLength: length + paddingCharCount, withPad: paddingString, startingAt: 0)
+        } else {
+            return self
+        }
     }
 }
