@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9F3AB10E1E07E620006654D2 /* SignalService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F3AB1041E07E620006654D2 /* SignalService.framework */; };
-		9F3AB1131E07E620006654D2 /* SignalServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3AB1121E07E620006654D2 /* SignalServiceTests.m */; };
+		9F3AB1131E07E620006654D2 /* SignalServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3AB1121E07E620006654D2 /* SignalServiceTests.swift */; };
 		9F3AB1151E07E620006654D2 /* SignalService.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB1071E07E620006654D2 /* SignalService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F3AB1A01E07E6A8006654D2 /* curve.c in Sources */ = {isa = PBXBuildFile; fileRef = 9F3AB11F1E07E6A8006654D2 /* curve.c */; };
 		9F3AB1A11E07E6A8006654D2 /* curve.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB1201E07E6A8006654D2 /* curve.h */; };
@@ -145,7 +145,7 @@
 		9F3AB32B1E07E7CC006654D2 /* SignalSessionCipher.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3AB3211E07E7CC006654D2 /* SignalSessionCipher.m */; };
 		9F3AB32F1E07E7D1006654D2 /* SignalError.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB32D1E07E7D1006654D2 /* SignalError.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F3AB3301E07E7D1006654D2 /* SignalError.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3AB32E1E07E7D1006654D2 /* SignalError.m */; };
-		9F3AB3591E07E7D9006654D2 /* SignalCommonCryptoProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB3321E07E7D9006654D2 /* SignalCommonCryptoProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F3AB3591E07E7D9006654D2 /* SignalCommonCryptoProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB3321E07E7D9006654D2 /* SignalCommonCryptoProvider.h */; };
 		9F3AB35A1E07E7D9006654D2 /* SignalCommonCryptoProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3AB3331E07E7D9006654D2 /* SignalCommonCryptoProvider.m */; };
 		9F3AB35B1E07E7D9006654D2 /* SignalAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB3351E07E7D9006654D2 /* SignalAddress.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F3AB35C1E07E7D9006654D2 /* SignalAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3AB3361E07E7D9006654D2 /* SignalAddress.m */; };
@@ -183,6 +183,7 @@
 		9F3AB37C1E07E7D9006654D2 /* SignalStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3AB3571E07E7D9006654D2 /* SignalStorage.m */; };
 		9F3AB37D1E07E7D9006654D2 /* SignalStorage_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB3581E07E7D9006654D2 /* SignalStorage_Internal.h */; };
 		9F3AB37F1E07E8C3006654D2 /* SignalProtocolC.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB37E1E07E8C3006654D2 /* SignalProtocolC.h */; };
+		9FDB65FD1E07ED5A00F6D055 /* SignalStoreInMemoryStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDB65FC1E07ED5A00F6D055 /* SignalStoreInMemoryStorage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -200,7 +201,7 @@
 		9F3AB1071E07E620006654D2 /* SignalService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignalService.h; sourceTree = "<group>"; };
 		9F3AB1081E07E620006654D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F3AB10D1E07E620006654D2 /* SignalServiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignalServiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F3AB1121E07E620006654D2 /* SignalServiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignalServiceTests.m; sourceTree = "<group>"; };
+		9F3AB1121E07E620006654D2 /* SignalServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalServiceTests.swift; sourceTree = "<group>"; };
 		9F3AB1141E07E620006654D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F3AB11F1E07E6A8006654D2 /* curve.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = curve.c; sourceTree = "<group>"; };
 		9F3AB1201E07E6A8006654D2 /* curve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curve.h; sourceTree = "<group>"; };
@@ -375,6 +376,9 @@
 		9F3AB3571E07E7D9006654D2 /* SignalStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignalStorage.m; sourceTree = "<group>"; };
 		9F3AB3581E07E7D9006654D2 /* SignalStorage_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignalStorage_Internal.h; sourceTree = "<group>"; };
 		9F3AB37E1E07E8C3006654D2 /* SignalProtocolC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignalProtocolC.h; sourceTree = "<group>"; };
+		9FDB65FA1E07ED5A00F6D055 /* SignalServiceTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SignalServiceTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		9FDB65FB1E07ED5A00F6D055 /* SignalStoreInMemoryStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignalStoreInMemoryStorage.h; sourceTree = "<group>"; };
+		9FDB65FC1E07ED5A00F6D055 /* SignalStoreInMemoryStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignalStoreInMemoryStorage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -428,8 +432,11 @@
 		9F3AB1111E07E620006654D2 /* SignalServiceTests */ = {
 			isa = PBXGroup;
 			children = (
-				9F3AB1121E07E620006654D2 /* SignalServiceTests.m */,
+				9F3AB1121E07E620006654D2 /* SignalServiceTests.swift */,
+				9FDB65FB1E07ED5A00F6D055 /* SignalStoreInMemoryStorage.h */,
+				9FDB65FC1E07ED5A00F6D055 /* SignalStoreInMemoryStorage.m */,
 				9F3AB1141E07E620006654D2 /* Info.plist */,
+				9FDB65FA1E07ED5A00F6D055 /* SignalServiceTests-Bridging-Header.h */,
 			);
 			path = SignalServiceTests;
 			sourceTree = "<group>";
@@ -717,7 +724,6 @@
 				9F3AB3261E07E7CC006654D2 /* SignalKeyHelper.h in Headers */,
 				9F3AB3281E07E7CC006654D2 /* SignalSessionBuilder.h in Headers */,
 				9F3AB32A1E07E7CC006654D2 /* SignalSessionCipher.h in Headers */,
-				9F3AB3591E07E7D9006654D2 /* SignalCommonCryptoProvider.h in Headers */,
 				9F3AB35B1E07E7D9006654D2 /* SignalAddress.h in Headers */,
 				9F3AB35E1E07E7D9006654D2 /* SignalCiphertext.h in Headers */,
 				9F3AB3601E07E7D9006654D2 /* SignalIdentityKeyPair.h in Headers */,
@@ -739,6 +745,7 @@
 				9F3AB1F11E07E6A8006654D2 /* group_session_builder.h in Headers */,
 				9F3AB3221E07E7CC006654D2 /* SignalContext_Internal.h in Headers */,
 				9F3AB3251E07E7CC006654D2 /* SignalKeyHelper_Internal.h in Headers */,
+				9F3AB3591E07E7D9006654D2 /* SignalCommonCryptoProvider.h in Headers */,
 				9F3AB35D1E07E7D9006654D2 /* SignalAddress_Internal.h in Headers */,
 				9F3AB3621E07E7D9006654D2 /* SignalIdentityKeyPair_Internal.h in Headers */,
 				9F3AB3651E07E7D9006654D2 /* SignalKeyPair_Internal.h in Headers */,
@@ -860,6 +867,7 @@
 					};
 					9F3AB10C1E07E620006654D2 = {
 						CreatedOnToolsVersion = 8.2;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -994,7 +1002,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F3AB1131E07E620006654D2 /* SignalServiceTests.m in Sources */,
+				9F3AB1131E07E620006654D2 /* SignalServiceTests.swift in Sources */,
+				9FDB65FD1E07ED5A00F6D055 /* SignalStoreInMemoryStorage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1144,20 +1153,29 @@
 		9F3AB11C1E07E620006654D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SignalServiceTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = no.bakkenbaeck.SignalServiceTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SignalServiceTests/SignalServiceTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		9F3AB11D1E07E620006654D2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SignalServiceTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = no.bakkenbaeck.SignalServiceTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SignalServiceTests/SignalServiceTests-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

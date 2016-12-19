@@ -40,13 +40,16 @@
 }
 
 /** Serialized data, or nil if there was an error */
-- (nullable NSData*)serializedData {
+- (NSData *)serializedData {
     signal_buffer *buffer = NULL;
     int result = session_pre_key_serialize(&buffer, _preKey);
-    NSData *data = nil;
+    NSData *data = [NSData data];
     if (buffer && result >= 0) {
         data = [NSData dataWithBytes:signal_buffer_data(buffer) length:signal_buffer_len(buffer)];
+    } else {
+        NSLog(@"Could not serialize data. %@", ErrorFromSignalError(SignalErrorFromCode(result)).localizedDescription);
     }
+
     return data;
 }
 

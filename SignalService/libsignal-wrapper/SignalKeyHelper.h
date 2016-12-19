@@ -17,13 +17,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, strong, readonly) SignalContext *context;
 
-- (nullable instancetype) initWithContext:(SignalContext*)context;
+- (instancetype) initWithContext:(SignalContext*)context;
 
 /**
  * Generate an identity key pair.  Clients should only do this once,
  * at install time.
  */
-- (nullable SignalIdentityKeyPair*) generateIdentityKeyPair;
+- (SignalIdentityKeyPair*) generateIdentityKeyPair;
 
 /**
  * Generate a registration ID.  Clients should only do this once,
@@ -47,12 +47,12 @@ NS_ASSUME_NONNULL_BEGIN
  * Generate the last resort pre key.  Clients should do this only once, at
  * install time, and durably store it for the length of the install.
  */
-- (nullable SignalPreKey*)generateLastResortPreKey;
+- (SignalPreKey*)generateLastResortPreKey;
 
 /**
  * Generate a signed pre key
  */
-- (nullable SignalSignedPreKey*)generateSignedPreKeyWithIdentity:(SignalIdentityKeyPair*)identityKeyPair
+- (SignalSignedPreKey*)generateSignedPreKeyWithIdentity:(SignalIdentityKeyPair*)identityKeyPair
                                                   signedPreKeyId:(uint32_t)signedPreKeyId;
 
 

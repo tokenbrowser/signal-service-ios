@@ -30,7 +30,8 @@ static void signal_log(int level, const char *message, size_t len, void *user_da
     if (self = [super init]) {
         int result = signal_context_create(&_context, (__bridge void *)(self));
         if (result != 0) {
-            return nil;
+            NSLog(@"Could not create signal context.");
+            abort();
         }
         
         // Setup crypto provider
@@ -48,6 +49,7 @@ static void signal_log(int level, const char *message, size_t len, void *user_da
         _storage = storage;
         [_storage setupWithContext:_context];
     }
+    
     return self;
 }
 

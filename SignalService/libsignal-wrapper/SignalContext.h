@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, strong, readonly) SignalStorage *storage;
 
-- (nullable instancetype) initWithStorage:(SignalStorage*)storage;
+- (instancetype) initWithStorage:(SignalStorage*)storage;
 
 @end
 NS_ASSUME_NONNULL_END

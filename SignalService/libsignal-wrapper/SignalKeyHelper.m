@@ -18,18 +18,22 @@
 
 - (instancetype) initWithContext:(SignalContext*)context {
     NSParameterAssert(context);
-    if (!context) { return nil; }
+    if (!context) {
+        NSLog(@"Cannot generate signal key helper without context.");
+        abort();
+    }
     if (self = [super init]) {
         _context = context;
     }
     return self;
 }
 
-- (nullable SignalIdentityKeyPair*) generateIdentityKeyPair {
+- (SignalIdentityKeyPair*) generateIdentityKeyPair {
     ratchet_identity_key_pair *keyPair = NULL;
     int result = signal_protocol_key_helper_generate_identity_key_pair(&keyPair, _context.context);
     if (result < 0 || !keyPair) {
-        return nil;
+        NSLog(@"Could not generate identity key pair.");
+        abort();
     }
     SignalIdentityKeyPair *identityKey = [[SignalIdentityKeyPair alloc] initWithIdentityKeyPair:keyPair];
     SIGNAL_UNREF(keyPair);
@@ -40,7 +44,8 @@
     uint32_t registration_id = 0;
     int result = signal_protocol_key_helper_generate_registration_id(&registration_id, 1, _context.context);
     if (result < 0) {
-        return 0;
+        NSLog(@"Could not generate registration id.");
+        abort();
     }
     return registration_id;
 }
@@ -62,11 +67,11 @@
     return keys;
 }
 
-- (nullable SignalPreKey*)generateLastResortPreKey {
+- (SignalPreKey*)generateLastResortPreKey {
     session_pre_key *pre_key = NULL;
     int result = signal_protocol_key_helper_generate_last_resort_pre_key(&pre_key, _context.context);
     if (result < 0) {
-        return nil;
+        exit("Could not generate last resort prekey.");
     }
     SignalPreKey *key = [[SignalPreKey alloc] initWithPreKey:pre_key];
     return key;

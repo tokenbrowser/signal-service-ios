@@ -13,7 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 @required
 
 /** Serialized data, or nil if there was an error */
-- (nullable NSData*)serializedData;
+- (NSData*)serializedData;
+
 /** Deserialized object, or nil if there is an error */
 - (nullable instancetype) initWithSerializedData:(NSData*)serializedData error:(NSError **)error;
 
