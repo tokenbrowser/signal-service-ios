@@ -1,1 +1,1 @@
-git "../signal-service" "master"
+github "tokenbrowser/signal-service-ios" "master"
