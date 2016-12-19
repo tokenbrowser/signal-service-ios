@@ -17,7 +17,7 @@
     }
 }
 
-- (instancetype) initWithName:(NSString *)name deviceId:(int32_t)deviceId {
+- (instancetype) initWithName:(NSString *)name deviceId:(uint32_t)deviceId {
     NSParameterAssert(name);
     if (!name) {
         return nil;
