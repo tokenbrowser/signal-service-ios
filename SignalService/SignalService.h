@@ -28,3 +28,4 @@ FOUNDATION_EXPORT const unsigned char SignalServiceVersionString[];
 #import "SignalSignedPreKeyStore.h"
 #import "SignalStorage.h"
 #import "SignalError.h"
+#import "NSData+messagePadding.h"

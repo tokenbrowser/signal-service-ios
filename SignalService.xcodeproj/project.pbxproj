@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9F2BDE111E07FDB000E32CAD /* SignalService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F3AB1041E07E620006654D2 /* SignalService.framework */; };
-		9F2CB5151E0ABE2B00E3DA6D /* NSData+messagePadding.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F2CB5131E0ABE2B00E3DA6D /* NSData+messagePadding.h */; };
+		9F2CB5151E0ABE2B00E3DA6D /* NSData+messagePadding.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F2CB5131E0ABE2B00E3DA6D /* NSData+messagePadding.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F2CB5161E0ABE2B00E3DA6D /* NSData+messagePadding.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2CB5141E0ABE2B00E3DA6D /* NSData+messagePadding.m */; };
 		9F3AB1131E07E620006654D2 /* SignalServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3AB1121E07E620006654D2 /* SignalServiceTests.swift */; };
 		9F3AB1151E07E620006654D2 /* SignalService.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB1071E07E620006654D2 /* SignalService.h */; settings = {ATTRIBUTES = (Public, ); }; };
