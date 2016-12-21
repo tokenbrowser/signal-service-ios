@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9F2BDE111E07FDB000E32CAD /* SignalService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F3AB1041E07E620006654D2 /* SignalService.framework */; };
-		9F2CB5151E0ABE2B00E3DA6D /* NSData+messagePadding.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F2CB5131E0ABE2B00E3DA6D /* NSData+messagePadding.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F2CB5161E0ABE2B00E3DA6D /* NSData+messagePadding.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2CB5141E0ABE2B00E3DA6D /* NSData+messagePadding.m */; };
+		9F2CB5191E0AC41A00E3DA6D /* NSData+messagePadding.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F2CB5171E0AC41A00E3DA6D /* NSData+messagePadding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F2CB51A1E0AC41A00E3DA6D /* NSData+messagePadding.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2CB5181E0AC41A00E3DA6D /* NSData+messagePadding.m */; };
 		9F3AB1131E07E620006654D2 /* SignalServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3AB1121E07E620006654D2 /* SignalServiceTests.swift */; };
 		9F3AB1151E07E620006654D2 /* SignalService.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB1071E07E620006654D2 /* SignalService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F3AB1A01E07E6A8006654D2 /* curve.c in Sources */ = {isa = PBXBuildFile; fileRef = 9F3AB11F1E07E6A8006654D2 /* curve.c */; };
@@ -200,8 +200,8 @@
 
 /* Begin PBXFileReference section */
 		9F2BDE0C1E07FD9700E32CAD /* SweetFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SweetFoundation.framework; path = "../../../Library/Developer/Xcode/DerivedData/Demo-cqmgdvvkmxvkhmcbamqyzksvjgph/Build/Products/Debug-iphoneos/SweetFoundation.framework"; sourceTree = "<group>"; };
-		9F2CB5131E0ABE2B00E3DA6D /* NSData+messagePadding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+messagePadding.h"; path = "../../../Signal-iOS/Pods/SignalServiceKit/src/Util/NSData+messagePadding.h"; sourceTree = "<group>"; };
-		9F2CB5141E0ABE2B00E3DA6D /* NSData+messagePadding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+messagePadding.m"; path = "../../../Signal-iOS/Pods/SignalServiceKit/src/Util/NSData+messagePadding.m"; sourceTree = "<group>"; };
+		9F2CB5171E0AC41A00E3DA6D /* NSData+messagePadding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+messagePadding.h"; sourceTree = "<group>"; };
+		9F2CB5181E0AC41A00E3DA6D /* NSData+messagePadding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+messagePadding.m"; sourceTree = "<group>"; };
 		9F3AB1041E07E620006654D2 /* SignalService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SignalService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F3AB1071E07E620006654D2 /* SignalService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignalService.h; sourceTree = "<group>"; };
 		9F3AB1081E07E620006654D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -648,8 +648,8 @@
 				9F3AB31F1E07E7CC006654D2 /* SignalSessionBuilder.m */,
 				9F3AB3201E07E7CC006654D2 /* SignalSessionCipher.h */,
 				9F3AB3211E07E7CC006654D2 /* SignalSessionCipher.m */,
-				9F2CB5131E0ABE2B00E3DA6D /* NSData+messagePadding.h */,
-				9F2CB5141E0ABE2B00E3DA6D /* NSData+messagePadding.m */,
+				9F2CB5171E0AC41A00E3DA6D /* NSData+messagePadding.h */,
+				9F2CB5181E0AC41A00E3DA6D /* NSData+messagePadding.m */,
 				9F3AB3311E07E7D9006654D2 /* Crypto */,
 				9F3AB3341E07E7D9006654D2 /* Models */,
 				9F3AB3501E07E7D9006654D2 /* Storage */,
@@ -790,7 +790,7 @@
 				9F3AB37F1E07E8C3006654D2 /* SignalProtocolC.h in Headers */,
 				9F3AB1E51E07E6A8006654D2 /* sc.h in Headers */,
 				9F3AB1DC1E07E6A8006654D2 /* crypto_sign_edwards25519sha512batch.h in Headers */,
-				9F2CB5151E0ABE2B00E3DA6D /* NSData+messagePadding.h in Headers */,
+				9F2CB5191E0AC41A00E3DA6D /* NSData+messagePadding.h in Headers */,
 				9F3AB20F1E07E6A8006654D2 /* signal_protocol_internal.h in Headers */,
 				9F3AB1FD1E07E6A8006654D2 /* ratchet.h in Headers */,
 				9F3AB1EF1E07E6A8006654D2 /* group_cipher.h in Headers */,
@@ -929,7 +929,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F2CB5161E0ABE2B00E3DA6D /* NSData+messagePadding.m in Sources */,
+				9F2CB51A1E0AC41A00E3DA6D /* NSData+messagePadding.m in Sources */,
 				9F3AB1BB1E07E6A8006654D2 /* fe_neg.c in Sources */,
 				9F3AB1C01E07E6A8006654D2 /* fe_tobytes.c in Sources */,
 				9F3AB35F1E07E7D9006654D2 /* SignalCiphertext.m in Sources */,
