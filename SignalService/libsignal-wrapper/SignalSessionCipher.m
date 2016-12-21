@@ -13,6 +13,7 @@
 #import "SignalMessage_Internal.h"
 #import "SignalPreKeyMessage_Internal.h"
 #import "SignalError.h"
+#import "NSData+messagePadding.h"
 
 #import "SignalProtocolC.h"
 
@@ -49,8 +50,11 @@
         }
         return nil;
     }
+
+    NSData *paddedData = [data paddedMessageBody];
+
     ciphertext_message *message = NULL;
-    int result = session_cipher_encrypt(_cipher, data.bytes, data.length, &message);
+    int result = session_cipher_encrypt(_cipher, paddedData.bytes, paddedData.length, &message);
     if (result < 0 || !message) {
         *error = ErrorFromSignalError(SignalErrorFromCode(result));
         return nil;
@@ -112,7 +116,7 @@
         }
         return nil;
     }
-    NSData *outData = [NSData dataWithBytes:signal_buffer_data(buffer) length:signal_buffer_len(buffer)];
+    NSData *outData = [[NSData dataWithBytes:signal_buffer_data(buffer) length:signal_buffer_len(buffer)] removePadding];
     signal_buffer_free(buffer);
     return outData;
 }

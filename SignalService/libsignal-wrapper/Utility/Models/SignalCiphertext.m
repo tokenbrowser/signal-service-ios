@@ -7,6 +7,7 @@
 //
 
 #import "SignalCiphertext.h"
+#import "NSData+messagePadding.h"
 
 @implementation SignalCiphertext
 
