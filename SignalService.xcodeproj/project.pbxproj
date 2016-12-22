@@ -189,15 +189,7 @@
 		9F46C3CB1E0BE4EE003A94EF /* Cryptography.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F46C3C91E0BE4EE003A94EF /* Cryptography.m */; };
 		9F46C3CE1E0BE516003A94EF /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F46C3CC1E0BE516003A94EF /* NSData+Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F46C3CF1E0BE516003A94EF /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F46C3CD1E0BE516003A94EF /* NSData+Base64.m */; };
-		9F46C3D61E0BFFE5003A94EF /* PreKeyWhisperMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F46C3D41E0BFFE5003A94EF /* PreKeyWhisperMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F46C3D71E0BFFE5003A94EF /* PreKeyWhisperMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F46C3D51E0BFFE5003A94EF /* PreKeyWhisperMessage.m */; };
-		9F46C3DA1E0BFFF7003A94EF /* WhisperMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F46C3D81E0BFFF7003A94EF /* WhisperMessage.h */; };
-		9F46C3DB1E0BFFF7003A94EF /* WhisperMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F46C3D91E0BFFF7003A94EF /* WhisperMessage.m */; };
 		9FDB65FD1E07ED5A00F6D055 /* SignalStoreInMemoryStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDB65FC1E07ED5A00F6D055 /* SignalStoreInMemoryStorage.m */; };
-		9FFC2E791E0C1983001799F6 /* SessionRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FFC2E751E0C1983001799F6 /* SessionRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9FFC2E7A1E0C1983001799F6 /* SessionRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFC2E761E0C1983001799F6 /* SessionRecord.m */; };
-		9FFC2E7B1E0C1983001799F6 /* SessionState.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FFC2E771E0C1983001799F6 /* SessionState.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9FFC2E7C1E0C1983001799F6 /* SessionState.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFC2E781E0C1983001799F6 /* SessionState.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -397,17 +389,9 @@
 		9F46C3C91E0BE4EE003A94EF /* Cryptography.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cryptography.m; sourceTree = "<group>"; };
 		9F46C3CC1E0BE516003A94EF /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
 		9F46C3CD1E0BE516003A94EF /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
-		9F46C3D41E0BFFE5003A94EF /* PreKeyWhisperMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreKeyWhisperMessage.h; sourceTree = "<group>"; };
-		9F46C3D51E0BFFE5003A94EF /* PreKeyWhisperMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreKeyWhisperMessage.m; sourceTree = "<group>"; };
-		9F46C3D81E0BFFF7003A94EF /* WhisperMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhisperMessage.h; sourceTree = "<group>"; };
-		9F46C3D91E0BFFF7003A94EF /* WhisperMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhisperMessage.m; sourceTree = "<group>"; };
 		9FDB65FA1E07ED5A00F6D055 /* SignalServiceTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SignalServiceTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		9FDB65FB1E07ED5A00F6D055 /* SignalStoreInMemoryStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignalStoreInMemoryStorage.h; sourceTree = "<group>"; };
 		9FDB65FC1E07ED5A00F6D055 /* SignalStoreInMemoryStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignalStoreInMemoryStorage.m; sourceTree = "<group>"; };
-		9FFC2E751E0C1983001799F6 /* SessionRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionRecord.h; sourceTree = "<group>"; };
-		9FFC2E761E0C1983001799F6 /* SessionRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionRecord.m; sourceTree = "<group>"; };
-		9FFC2E771E0C1983001799F6 /* SessionState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionState.h; sourceTree = "<group>"; };
-		9FFC2E781E0C1983001799F6 /* SessionState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionState.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -756,18 +740,10 @@
 		9F46C3DC1E0BFFFC003A94EF /* ServiceKitModels */ = {
 			isa = PBXGroup;
 			children = (
-				9FFC2E751E0C1983001799F6 /* SessionRecord.h */,
-				9FFC2E761E0C1983001799F6 /* SessionRecord.m */,
-				9FFC2E771E0C1983001799F6 /* SessionState.h */,
-				9FFC2E781E0C1983001799F6 /* SessionState.m */,
 				9F46C3C81E0BE4EE003A94EF /* Cryptography.h */,
 				9F46C3C91E0BE4EE003A94EF /* Cryptography.m */,
 				9F46C3CC1E0BE516003A94EF /* NSData+Base64.h */,
 				9F46C3CD1E0BE516003A94EF /* NSData+Base64.m */,
-				9F46C3D81E0BFFF7003A94EF /* WhisperMessage.h */,
-				9F46C3D91E0BFFF7003A94EF /* WhisperMessage.m */,
-				9F46C3D41E0BFFE5003A94EF /* PreKeyWhisperMessage.h */,
-				9F46C3D51E0BFFE5003A94EF /* PreKeyWhisperMessage.m */,
 			);
 			name = ServiceKitModels;
 			sourceTree = "<group>";
@@ -792,7 +768,6 @@
 				9F3AB3691E07E7D9006654D2 /* SignalPreKey.h in Headers */,
 				9F3AB36C1E07E7D9006654D2 /* SignalPreKeyBundle.h in Headers */,
 				9F3AB36F1E07E7D9006654D2 /* SignalPreKeyMessage.h in Headers */,
-				9F46C3DA1E0BFFF7003A94EF /* WhisperMessage.h in Headers */,
 				9F3AB3721E07E7D9006654D2 /* SignalSerializable.h in Headers */,
 				9F3AB3731E07E7D9006654D2 /* SignalSignedPreKey.h in Headers */,
 				9F3AB3761E07E7D9006654D2 /* SignalIdentityKeyStore.h in Headers */,
@@ -818,7 +793,6 @@
 				9F3AB37D1E07E7D9006654D2 /* SignalStorage_Internal.h in Headers */,
 				9F3AB1EB1E07E6A8006654D2 /* fingerprint.h in Headers */,
 				9F46C3CA1E0BE4EE003A94EF /* Cryptography.h in Headers */,
-				9FFC2E7B1E0C1983001799F6 /* SessionState.h in Headers */,
 				9F3AB1D71E07E6A8006654D2 /* ge_sub.h in Headers */,
 				9F3AB1FB1E07E6A8006654D2 /* protocol.h in Headers */,
 				9F3AB1C91E07E6A8006654D2 /* ge_msub.h in Headers */,
@@ -846,7 +820,6 @@
 				9F3AB2121E07E6A8006654D2 /* signal_protocol.h in Headers */,
 				9F3AB2061E07E6A8006654D2 /* session_builder.h in Headers */,
 				9F3AB1AF1E07E6A8006654D2 /* d2.h in Headers */,
-				9F46C3D61E0BFFE5003A94EF /* PreKeyWhisperMessage.h in Headers */,
 				9F3AB20E1E07E6A8006654D2 /* session_state.h in Headers */,
 				9F3AB1E41E07E6A8006654D2 /* pow225521.h in Headers */,
 				9F3AB1A31E07E6A8006654D2 /* curve25519-donna.h in Headers */,
@@ -862,7 +835,6 @@
 				9F3AB2101E07E6A8006654D2 /* signal_protocol_types.h in Headers */,
 				9F3AB1C71E07E6A8006654D2 /* ge_madd.h in Headers */,
 				9F3AB1E31E07E6A8006654D2 /* pow22523.h in Headers */,
-				9FFC2E791E0C1983001799F6 /* SessionRecord.h in Headers */,
 				9F3AB2161E07E6A8006654D2 /* utstring.h in Headers */,
 				9F3AB1A81E07E6A8006654D2 /* curve_sigs.h in Headers */,
 				9F3AB2041E07E6A8006654D2 /* session_builder_internal.h in Headers */,
@@ -994,7 +966,6 @@
 				9F3AB3301E07E7D1006654D2 /* SignalError.m in Sources */,
 				9F3AB1CD1E07E6A8006654D2 /* ge_p2_dbl.c in Sources */,
 				9F3AB2051E07E6A8006654D2 /* session_builder.c in Sources */,
-				9F46C3D71E0BFFE5003A94EF /* PreKeyWhisperMessage.m in Sources */,
 				9F3AB32B1E07E7CC006654D2 /* SignalSessionCipher.m in Sources */,
 				9F3AB1F01E07E6A8006654D2 /* group_session_builder.c in Sources */,
 				9F3AB1C41E07E6A8006654D2 /* ge_double_scalarmult.c in Sources */,
@@ -1013,7 +984,6 @@
 				9F3AB1FA1E07E6A8006654D2 /* protocol.c in Sources */,
 				9F3AB1A01E07E6A8006654D2 /* curve.c in Sources */,
 				9F3AB1E11E07E6A8006654D2 /* hash.c in Sources */,
-				9F46C3DB1E0BFFF7003A94EF /* WhisperMessage.m in Sources */,
 				9F3AB1CC1E07E6A8006654D2 /* ge_p2_0.c in Sources */,
 				9F3AB2171E07E6A8006654D2 /* vpool.c in Sources */,
 				9F3AB1F21E07E6A8006654D2 /* hkdf.c in Sources */,
@@ -1051,7 +1021,6 @@
 				9F3AB1D51E07E6A8006654D2 /* ge_scalarmult_base.c in Sources */,
 				9F3AB2191E07E6A9006654D2 /* WhisperTextProtocol.pb-c.c in Sources */,
 				9F3AB1CB1E07E6A8006654D2 /* ge_p1p1_to_p3.c in Sources */,
-				9FFC2E7C1E0C1983001799F6 /* SessionState.m in Sources */,
 				9F3AB1CF1E07E6A8006654D2 /* ge_p3_0.c in Sources */,
 				9F3AB1EA1E07E6A8006654D2 /* fingerprint.c in Sources */,
 				9F3AB1A91E07E6A8006654D2 /* sign_modified.c in Sources */,
@@ -1064,7 +1033,6 @@
 				9F3AB1BD1E07E6A8006654D2 /* fe_sq.c in Sources */,
 				9F3AB2091E07E6A8006654D2 /* session_pre_key.c in Sources */,
 				9F3AB1B81E07E6A8006654D2 /* fe_isnegative.c in Sources */,
-				9FFC2E7A1E0C1983001799F6 /* SessionRecord.m in Sources */,
 				9F3AB1B91E07E6A8006654D2 /* fe_isnonzero.c in Sources */,
 				9F3AB1FC1E07E6A8006654D2 /* ratchet.c in Sources */,
 				9F3AB1C61E07E6A8006654D2 /* ge_madd.c in Sources */,
