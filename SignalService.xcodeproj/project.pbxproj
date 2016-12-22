@@ -185,9 +185,9 @@
 		9F3AB37C1E07E7D9006654D2 /* SignalStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3AB3571E07E7D9006654D2 /* SignalStorage.m */; };
 		9F3AB37D1E07E7D9006654D2 /* SignalStorage_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB3581E07E7D9006654D2 /* SignalStorage_Internal.h */; };
 		9F3AB37F1E07E8C3006654D2 /* SignalProtocolC.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB37E1E07E8C3006654D2 /* SignalProtocolC.h */; };
-		9F46C3CA1E0BE4EE003A94EF /* Cryptography.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F46C3C81E0BE4EE003A94EF /* Cryptography.h */; };
+		9F46C3CA1E0BE4EE003A94EF /* Cryptography.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F46C3C81E0BE4EE003A94EF /* Cryptography.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F46C3CB1E0BE4EE003A94EF /* Cryptography.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F46C3C91E0BE4EE003A94EF /* Cryptography.m */; };
-		9F46C3CE1E0BE516003A94EF /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F46C3CC1E0BE516003A94EF /* NSData+Base64.h */; };
+		9F46C3CE1E0BE516003A94EF /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F46C3CC1E0BE516003A94EF /* NSData+Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F46C3CF1E0BE516003A94EF /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F46C3CD1E0BE516003A94EF /* NSData+Base64.m */; };
 		9FDB65FD1E07ED5A00F6D055 /* SignalStoreInMemoryStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDB65FC1E07ED5A00F6D055 /* SignalStoreInMemoryStorage.m */; };
 /* End PBXBuildFile section */
