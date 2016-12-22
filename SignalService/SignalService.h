@@ -20,6 +20,8 @@ FOUNDATION_EXPORT const unsigned char SignalServiceVersionString[];
 #import "SignalContext.h"
 #import "SignalKeyHelper.h"
 #import "SignalSessionBuilder.h"
+#import "SignalSessionState.h"
+#import "SignalSessionRecord.h"
 #import "SignalSessionCipher.h"
 #import "SignalIdentityKeyStore.h"
 #import "SignalPreKeyStore.h"
