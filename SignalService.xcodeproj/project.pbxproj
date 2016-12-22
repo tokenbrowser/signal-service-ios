@@ -185,6 +185,10 @@
 		9F3AB37C1E07E7D9006654D2 /* SignalStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3AB3571E07E7D9006654D2 /* SignalStorage.m */; };
 		9F3AB37D1E07E7D9006654D2 /* SignalStorage_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB3581E07E7D9006654D2 /* SignalStorage_Internal.h */; };
 		9F3AB37F1E07E8C3006654D2 /* SignalProtocolC.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AB37E1E07E8C3006654D2 /* SignalProtocolC.h */; };
+		9F46C3CA1E0BE4EE003A94EF /* Cryptography.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F46C3C81E0BE4EE003A94EF /* Cryptography.h */; };
+		9F46C3CB1E0BE4EE003A94EF /* Cryptography.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F46C3C91E0BE4EE003A94EF /* Cryptography.m */; };
+		9F46C3CE1E0BE516003A94EF /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F46C3CC1E0BE516003A94EF /* NSData+Base64.h */; };
+		9F46C3CF1E0BE516003A94EF /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F46C3CD1E0BE516003A94EF /* NSData+Base64.m */; };
 		9FDB65FD1E07ED5A00F6D055 /* SignalStoreInMemoryStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDB65FC1E07ED5A00F6D055 /* SignalStoreInMemoryStorage.m */; };
 /* End PBXBuildFile section */
 
@@ -381,6 +385,10 @@
 		9F3AB3571E07E7D9006654D2 /* SignalStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignalStorage.m; sourceTree = "<group>"; };
 		9F3AB3581E07E7D9006654D2 /* SignalStorage_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignalStorage_Internal.h; sourceTree = "<group>"; };
 		9F3AB37E1E07E8C3006654D2 /* SignalProtocolC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignalProtocolC.h; sourceTree = "<group>"; };
+		9F46C3C81E0BE4EE003A94EF /* Cryptography.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cryptography.h; sourceTree = "<group>"; };
+		9F46C3C91E0BE4EE003A94EF /* Cryptography.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cryptography.m; sourceTree = "<group>"; };
+		9F46C3CC1E0BE516003A94EF /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		9F46C3CD1E0BE516003A94EF /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
 		9FDB65FA1E07ED5A00F6D055 /* SignalServiceTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SignalServiceTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		9FDB65FB1E07ED5A00F6D055 /* SignalStoreInMemoryStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignalStoreInMemoryStorage.h; sourceTree = "<group>"; };
 		9FDB65FC1E07ED5A00F6D055 /* SignalStoreInMemoryStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignalStoreInMemoryStorage.m; sourceTree = "<group>"; };
@@ -650,6 +658,10 @@
 				9F3AB3211E07E7CC006654D2 /* SignalSessionCipher.m */,
 				9F2CB5171E0AC41A00E3DA6D /* NSData+messagePadding.h */,
 				9F2CB5181E0AC41A00E3DA6D /* NSData+messagePadding.m */,
+				9F46C3C81E0BE4EE003A94EF /* Cryptography.h */,
+				9F46C3C91E0BE4EE003A94EF /* Cryptography.m */,
+				9F46C3CC1E0BE516003A94EF /* NSData+Base64.h */,
+				9F46C3CD1E0BE516003A94EF /* NSData+Base64.m */,
 				9F3AB3311E07E7D9006654D2 /* Crypto */,
 				9F3AB3341E07E7D9006654D2 /* Models */,
 				9F3AB3501E07E7D9006654D2 /* Storage */,
@@ -772,6 +784,7 @@
 				9F3AB3751E07E7D9006654D2 /* SignalSignedPreKey_Internal.h in Headers */,
 				9F3AB37D1E07E7D9006654D2 /* SignalStorage_Internal.h in Headers */,
 				9F3AB1EB1E07E6A8006654D2 /* fingerprint.h in Headers */,
+				9F46C3CA1E0BE4EE003A94EF /* Cryptography.h in Headers */,
 				9F3AB1D71E07E6A8006654D2 /* ge_sub.h in Headers */,
 				9F3AB1FB1E07E6A8006654D2 /* protocol.h in Headers */,
 				9F3AB1C91E07E6A8006654D2 /* ge_msub.h in Headers */,
@@ -802,6 +815,7 @@
 				9F3AB20E1E07E6A8006654D2 /* session_state.h in Headers */,
 				9F3AB1E41E07E6A8006654D2 /* pow225521.h in Headers */,
 				9F3AB1A31E07E6A8006654D2 /* curve25519-donna.h in Headers */,
+				9F46C3CE1E0BE516003A94EF /* NSData+Base64.h in Headers */,
 				9F3AB1A11E07E6A8006654D2 /* curve.h in Headers */,
 				9F3AB1A61E07E6A8006654D2 /* crypto_hash_sha512.h in Headers */,
 				9F3AB2141E07E6A8006654D2 /* uthash.h in Headers */,
@@ -950,7 +964,9 @@
 				9F3AB1BF1E07E6A8006654D2 /* fe_sub.c in Sources */,
 				9F3AB1E21E07E6A8006654D2 /* open.c in Sources */,
 				9F3AB2001E07E6A8006654D2 /* sender_key_state.c in Sources */,
+				9F46C3CB1E0BE4EE003A94EF /* Cryptography.m in Sources */,
 				9F3AB1B11E07E6A8006654D2 /* fe_0.c in Sources */,
+				9F46C3CF1E0BE516003A94EF /* NSData+Base64.m in Sources */,
 				9F3AB1B21E07E6A8006654D2 /* fe_1.c in Sources */,
 				9F3AB35A1E07E7D9006654D2 /* SignalCommonCryptoProvider.m in Sources */,
 				9F3AB3741E07E7D9006654D2 /* SignalSignedPreKey.m in Sources */,
